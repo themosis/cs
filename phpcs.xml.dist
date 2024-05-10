@@ -24,6 +24,7 @@
     <rule ref="Generic.PHP.RequireStrictTypes"/>
 
     <rule ref="PSR12.Classes.OpeningBraceSpace"/>
+    <rule ref="PSR12.Files.DeclareStatement"/>
 
     <rule ref="Squiz.Classes.ClassFileName"/>
 
