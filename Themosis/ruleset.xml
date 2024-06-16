@@ -1,11 +1,6 @@
 <?xml version="1.0"?>
 <ruleset name="Themosis">
-    <!-- Main -->
-    <description>Themosis coding standard</description>
-
-    <!-- Files -->
-    <file>./src</file>
-    <file>./tests</file>
+    <description>Themosis coding standard.</description>
 
     <!-- Configuration -->
     <arg name="extensions" value="php"/>
@@ -27,6 +22,4 @@
     <rule ref="PSR12.Files.DeclareStatement"/>
 
     <rule ref="Squiz.Classes.ClassFileName"/>
-
 </ruleset>
-
