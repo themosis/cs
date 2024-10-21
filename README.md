@@ -12,12 +12,9 @@ Themosis CS is the coding standard used by Themosis in its projects and librarie
 The package provides a [PHP Code Sniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer/) rules set that allows anyone
 to format their codebase using our coding standards.
 
-The `Themosis` ruleset is extending the [WordPress-Core](https://github.com/WordPress/WordPress-Coding-Standards) ruleset with some refinements:
-- Exclude the WordPress class name rule
-- Exclude the WordPress file name rule
-- Allow array short syntax
-- Allow ternary short sytax
+The `Themosis` ruleset is following the `PSR-12` ruleset with some refinements:
 - Force strict type declaration
+- Allow method names with underscore in test files
 
 > The list of rules may change over time...
 
