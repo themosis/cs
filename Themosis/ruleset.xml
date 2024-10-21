@@ -15,19 +15,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <arg name="tab-width" value="4"/>
 
     <!-- Code Rules -->
-    <rule ref="WordPress-Core">
-        <exclude name="WordPress.WP.ClassNameCase"/>
-        <exclude name="WordPress.Files.FileName"/>
-        <exclude name="Universal.Arrays.DisallowShortArraySyntax"/>
-        <exclude name="Universal.Operators.DisallowShortTernary"/>
-    </rule>
+    <rule ref="PSR12"/>
 
     <rule ref="Generic.CodeAnalysis.UnusedFunctionParameter"/>
 
     <rule ref="Generic.PHP.RequireStrictTypes"/>
-
-    <rule ref="PSR12.Classes.OpeningBraceSpace"/>
-    <rule ref="PSR12.Files.DeclareStatement"/>
 
     <rule ref="Squiz.Classes.ClassFileName"/>
 </ruleset>
